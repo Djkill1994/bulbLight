@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+.window-bulb-project{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.on-bulb{
+    box-shadow: 0 0 193px 78px white;
+    width: 162px;
+    height: 162px;
+    background-color: ivory;
+    position: absolute;
+    left: 791px;
+    top: 69px;
+    border-radius: 100px;
+}
+.bulb{
+    width: 400px;
+    height: 400px;
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+}
