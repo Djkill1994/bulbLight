@@ -1,27 +1,53 @@
-body{
+body {
     background-color: black;
 }
-.window-bulb-project{
+
+.window-bulb-project {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.on-bulb{
-    box-shadow: 0 0 193px 78px white;
-    width: 162px;
-    height: 162px;
-    background-color: ivory;
-    position: absolute;
-    left: 791px;
-    top: 69px;
-    border-radius: 100px;
-}
-.bulb{
-    width: 400px;
-    height: 400px;
+
+.bulb {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.button{
+.bulb-light {
+    border-radius: 100px;
+    width: 135px;
+    height: 222px;
+    z-index: 1;
+    background: linear-gradient(135deg, #b5bdc8 0%, #828c95 74%);
+}
+
+.plinth {
+    background-color: #607d8b;
+    position: absolute;
+    border-radius: 40px 40px 11px 11px;
+    width: 64px;
+    height: 86px;
+    top: 209px;
+}
+
+.button {
     width: 100px;
     height: 100px;
+    border-radius: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.stl-btn {
+    background-color: black;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+}
+
+
+/*box-shadow: 0 0 193px 78px white;*/
