@@ -21,6 +21,7 @@ body {
     height: 222px;
     z-index: 1;
     background: linear-gradient(135deg, #b5bdc8 0%, #828c95 74%);
+    box-shadow: none;
 }
 
 .plinth {
@@ -49,5 +50,23 @@ body {
     height: 70px;
 }
 
+.btn-line {
+    width: 17px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 97px;
+    left: 278px;
+}
 
-/*box-shadow: 0 0 193px 78px white;*/
+.button:hover {
+    box-shadow: 0 0 29px 14px cornflowerblue;
+    cursor: pointer;
+}
+
+.button:active {
+    box-shadow: 0 0 20px 12px rgba(80, 135, 230, 0.9);
+}
+
+
+
